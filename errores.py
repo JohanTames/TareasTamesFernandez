@@ -1,4 +1,4 @@
-def obtener_mayor(a,b):
+def obtener_mayor(a, b):
     """
     Método que compara dos números y retorna el mayor.
 
@@ -11,11 +11,11 @@ def obtener_mayor(a,b):
     No se realizan validaciones de tipo o valor en este método,
     se asume que ambos parámetros son números válidos.
     """
-    if a>b:
+    if a > b:
         return a
     else:
         return b
-    
+
 
 x = 2
 y = 10
